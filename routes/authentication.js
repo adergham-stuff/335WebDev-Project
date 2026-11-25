@@ -3,6 +3,8 @@ const router = express.Router();
 const bcrypt = require('bcrypt');
 const pool = require('../database/db'); // Import the database connection pool
 
+console.log("Authentication router loaded");//test
+
 
 
 router.post('/signup', function (req, res, next) {
